@@ -31,12 +31,20 @@ Object.keys(mime).forEach(function (suffix) {
 // write db
 require('./lib/write-db')('db.json', db)
 
+
 /**
  * Add mime data to the db, marked as a given source.
  */
 function addData(db, mime, source) {
+  const validExtensions = ['aiff', 'asf', 'avi', 'bmp', 'css', 'eps', 'fli', 'gif', 
+    'htm', 'ico', 'jpg', 'js', 'mid', 'mov', 'mp4', 'm4v', 'mp3', 'mpg', 'pdf',
+    'png', 'txt', 'tiff', 'webm', 'webp', 'wav', 'xml', 'zip'];
+
   Object.keys(mime).forEach(function (key) {
     var data = mime[key]
+    if (!data.extensions) return;
+    if (!data.extensions.find(function(x) { return validExtensions.indexOf(x) >= 0 }) ) return;
+
     var type = key.toLowerCase()
     var obj = db[type] = db[type] || createTypeEntry(source)
 
