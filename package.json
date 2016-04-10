@@ -1,5 +1,5 @@
 {
-  "name": "mime-db",
+  "name": "@paulcbetts/mime-db",
   "description": "Media Type Database",
   "version": "1.22.0",
   "contributors": [
