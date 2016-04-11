@@ -75,6 +75,9 @@
     "source": "nginx",
     "extensions": ["bmp"]
   },
+  "text/coffeescript": {
+    "extensions": ["coffee","litcoffee"]
+  },
   "text/css": {
     "source": "apache",
     "extensions": ["css"]

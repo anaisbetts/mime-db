@@ -36,7 +36,7 @@ require('./lib/write-db')('db.json', db)
  * Add mime data to the db, marked as a given source.
  */
 function addData(db, mime, source) {
-  const validExtensions = ['aiff', 'asf', 'avi', 'bmp', 'css', 'eps', 'fli', 'gif', 
+  const validExtensions = ['aiff', 'asf', 'avi', 'bmp', 'css', 'coffee', 'eps', 'fli', 'gif', 
     'htm', 'ico', 'less', 'jpg', 'js', 'mid', 'mov', 'mp4', 'm4v', 'mp3', 'mpg', 'pdf',
     'png', 'txt', 'sass', 'scss', 'tiff', 'webm', 'webp', 'wav', 'xml', 'zip'];
 
