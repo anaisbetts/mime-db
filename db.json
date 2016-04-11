@@ -86,6 +86,10 @@
     "source": "apache",
     "extensions": ["html","htm","shtml"]
   },
+  "text/jsx": {
+    "compressible": true,
+    "extensions": ["jsx"]
+  },
   "text/less": {
     "extensions": ["less"]
   },
