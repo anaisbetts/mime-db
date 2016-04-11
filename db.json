@@ -1,4 +1,12 @@
 {
+  "application/font-woff": {
+    "source": "apache",
+    "extensions": ["woff"]
+  },
+  "application/font-woff2": {
+    "compressible": false,
+    "extensions": ["woff2"]
+  },
   "application/javascript": {
     "source": "apache",
     "extensions": ["js"]
@@ -10,6 +18,14 @@
   "application/postscript": {
     "source": "apache",
     "extensions": ["ai","eps","ps"]
+  },
+  "application/x-font-otf": {
+    "source": "apache",
+    "extensions": ["otf"]
+  },
+  "application/x-font-ttf": {
+    "source": "apache",
+    "extensions": ["ttf","ttc"]
   },
   "application/xml": {
     "source": "apache",
@@ -42,6 +58,10 @@
   "audio/x-wav": {
     "source": "apache",
     "extensions": ["wav"]
+  },
+  "font/opentype": {
+    "compressible": true,
+    "extensions": ["otf"]
   },
   "image/bmp": {
     "source": "apache",
