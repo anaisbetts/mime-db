@@ -83,9 +83,18 @@
     "source": "apache",
     "extensions": ["html","htm","shtml"]
   },
+  "text/less": {
+    "extensions": ["less"]
+  },
   "text/plain": {
     "source": "apache",
     "extensions": ["txt","text","conf","def","list","log","in"]
+  },
+  "text/x-sass": {
+    "extensions": ["sass"]
+  },
+  "text/x-scss": {
+    "extensions": ["scss"]
   },
   "text/xml": {
     "source": "nginx",
