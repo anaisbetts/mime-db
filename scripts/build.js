@@ -37,8 +37,9 @@ require('./lib/write-db')('db.json', db)
  */
 function addData(db, mime, source) {
   const validExtensions = ['aiff', 'asf', 'avi', 'bmp', 'css', 'coffee', 'eps', 'fli', 'gif', 
-    'htm', 'ico', 'less', 'jpg', 'js', 'jsx', 'mid', 'mov', 'mp4', 'm4v', 'mp3', 'mpg', 'otf', 'pdf',
-    'png', 'ttf', 'txt', 'sass', 'scss', 'tiff', 'webm', 'webp', 'wav', 'woff', 'woff2', 'xml', 'zip'];
+    'htm', 'ico', 'less', 'jpg', 'js', 'jsx', 'mid', 'mov', 'mp4', 'm4v', 'mp3', 'mpg', 'otf', 
+    'pdf', 'png', 'ttf', 'txt', 'sass', 'scss', 'svg', 'tiff', 'webm', 'webp', 'wav', 'woff', 
+    'woff2', 'xml', 'zip'];
 
   Object.keys(mime).forEach(function (key) {
     var data = mime[key]

@@ -79,6 +79,10 @@
     "source": "apache",
     "extensions": ["png"]
   },
+  "image/svg+xml": {
+    "source": "apache",
+    "extensions": ["svg","svgz"]
+  },
   "image/tiff": {
     "source": "apache",
     "extensions": ["tiff","tif"]
